@@ -1,0 +1,59 @@
+body {
+  font-family: "Times New Roman", Times, serif, sans-serif;
+}
+
+#current-image-container {
+  padding: 10px 10px;
+  background-color: rgb(30, 29, 29);
+  color: white;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#current-image-container img {
+  width: 800px;
+  height: 450px;
+  border-radius: 20px;
+  border: 1px solid blue;
+}
+
+#current-image-container p {
+  width: 780px;
+  font-size: 17px;
+  text-align: justify;
+  margin: 15px;
+  color: bisque;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#history {
+  text-align: center;
+  margin: 20px 0;
+}
+#search-history {
+  color: blue;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: underline;
+}
